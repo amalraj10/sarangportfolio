@@ -1,0 +1,308 @@
+.logo{
+    width: 50%;
+}
+.nav{
+    background-color: #FFFFFF;
+   
+    height: 70%;
+ width: 78%;
+  
+}
+
+.navitems{
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+}
+.cwtbutton{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.firsthead{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-top: 6%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.mainhead{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+.headabout{
+    text-align: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+.hirebutton{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+   
+}
+.mainimg{
+width: 100%;
+}
+.abouthead {
+    padding: 0 10px;
+    white-space: nowrap;
+    font-weight: 390;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.line {
+    flex: 0.06;
+    height: 1px;
+    background-color: #000;
+}
+.lineed {
+    flex: 0.06;
+    height: 1px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.aboutdo {
+    padding: 0 10px;
+    white-space: nowrap;
+    font-weight: 390;
+}
+.linedo {
+    flex: 4 ;
+    height: 1px;
+    background-color: #000;
+}
+
+.line-containerdo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .skills-container h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .skill-item {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+  }
+  
+  .skill-item:hover {
+    background-color: #e9e9e9;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-text {
+    padding-right: 20px;
+  }
+  
+  .about-text h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+  }
+  
+  .about-text p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .about-image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .about-image {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .about-image::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    background-color: transparent;
+    z-index: -1;
+  }
+  
+  .about-image::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #5abfb0;
+    z-index: -2;
+  }
+  
+
+  .caro {
+    background-image: url('https://i.postimg.cc/xC2Z1WkH/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+  @media only screen and (max-width: 767px) {
+    .nav {
+      height: 70%;
+      width: 45%;
+     margin-left: 30%;/* Adjust width for smaller screens */
+    }
+  
+    .firsthead {
+      margin-top: 10%; /* Adjust margin-top for smaller screens */
+    }
+  
+    .headabout {
+      padding-left: 10px;
+      padding-right: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .hirebutton {
+      width: 30%; /* Make the button full width */
+    }
+  
+    .logo,
+    .cwtbutton {
+      display: none; /* Hide logo and "Call for an Interview" button */
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .logo {
+      width: 50%; /* Set width of logo for laptop devices */
+    }
+  
+    .cwtbutton {
+      display: block; /* Show "Call for an Interview" button for laptop devices */
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 920px) {
+    .firsthead {
+      margin-top: 8%; /* Adjust margin-top for screens between 760px and 920px */
+    }
+    .logo,
+    .cwtbutton {
+      display: none; /* Hide logo and "Call for an Interview" button */
+    }
+  }
+
+
+  /* Media Queries */
+@media only screen and (max-width: 570px) and (max-width: 650px) {
+  .nav {
+    height: 70%;
+    width: 55%;
+   margin-left: 30%;
+}
+}
+@media only screen and (max-width: 580px)  {
+  .nav {
+    height: 70%;
+    width: 60%;
+   margin-left: 30%;
+}
+}
+@media only screen and (max-width: 480px)  {
+  .nav {
+    height: 70%;
+    width: 70%;
+   margin-left: 20%;
+}
+}
+@media only screen and (max-width: 350px)  {
+  .nav {
+    height: 70%;
+    width: 85%;
+   margin-left: 10%;
+}
+}
+
+
+@media only screen and (min-width: 768px)  {
+  .nav {
+    height: 70%;
+    width: 300px;
+   margin-left: -50%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .nav {
+    /* Adjust styles for screen sizes between 992px and 1199px */
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  .nav {
+    height: 70%;
+    width: 300px;
+   margin-left: -20%;
+  }
+}
