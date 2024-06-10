@@ -142,7 +142,7 @@ function Home() {
             </Col>
             <Col md={3} className='about-image-container'>
               <div className="about-image">
-                <img src="https://i.postimg.cc/YSBcvXj6/About-Session.png" alt="About Me" />
+                <img className='sarimage' src="https://i.postimg.cc/YSBcvXj6/About-Session.png" alt="About Me" />
               </div>
             </Col>
             <Col md={1}></Col>
